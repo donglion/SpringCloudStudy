@@ -1,0 +1,38 @@
+#server.port=1111
+#
+#eureka.instance.hostname=localhost
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+#eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/
+
+---
+
+spring:
+  profiles: server1
+  application:
+    name: eureka-server
+server:
+  port: 1111
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:1112/eureka/
+
+---
+
+spring:
+  profiles: server2
+  application:
+    name: eureka-server
+server:
+  port: 1112
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
