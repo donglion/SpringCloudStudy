@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e960ba3-08cb-4bc5-97a9-875c8650c09c" name="Default Changelist" comment="">
+    <list default="true" id="eaa66e0f-da74-4220-9c00-6f4bf6c2245f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ApiGateway/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../FeignConsumer/src/main/java/com/lion/eurekaserver/service/HelloServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FeignConsumer/src/main/java/com/lion/eurekaserver/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FeignConsumer/src/main/java/com/lion/eurekaserver/service/HelloService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FeignConsumer/src/main/java/com/lion/eurekaserver/service/RefactorHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FeignConsumer/src/main/java/com/lion/eurekaserver/service/RefactorHelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloServiceApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloServiceApi/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,34 +19,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2107712011">
+    <session id="400951410">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="128" />
-          <entry key="xml" value="179" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="128" />
-          <entry key="XML" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="2" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="9" />
+          <entry key="xml" value="48" />
+          <entry key="yml" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="48" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -51,39 +59,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/zipkinserver/ZipkinServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/dto/User.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="92">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -100,8 +106,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lion/dto/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lion/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lion/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -131,109 +137,87 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="820" />
-    <option name="y" value="330" />
-    <option name="width" value="2769" />
-    <option name="height" value="1575" />
+    <option name="x" value="913" />
+    <option name="y" value="360" />
+    <option name="width" value="2880" />
+    <option name="height" value="1704" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lion" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkinserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HelloServiceApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloServiceApi" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZipkinServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZipkinServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lion" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590818744519" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EurekaClient" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590827486732" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lion.dto" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,25 +231,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ZipkinServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lion.zipkinserver.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e960ba3-08cb-4bc5-97a9-875c8650c09c" name="Default Changelist" comment="" />
-      <created>1590808818992</created>
+      <changelist id="eaa66e0f-da74-4220-9c00-6f4bf6c2245f" name="Default Changelist" comment="" />
+      <created>1590826921568</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590808818992</updated>
-      <workItem from="1590808821835" duration="2213000" />
+      <updated>1590826921568</updated>
+      <workItem from="1590826924866" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2213000" />
+    <option name="totallyTimeSpent" value="562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="547" y="220" width="1846" height="1050" extended-state="0" />
+    <frame x="609" y="240" width="1920" height="1136" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -273,25 +267,26 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32901296" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3998006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.32997763" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
@@ -308,23 +303,35 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/service/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lion/zipkinserver/ZipkinServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="92">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lion/zipkinserver/ZipkinServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>

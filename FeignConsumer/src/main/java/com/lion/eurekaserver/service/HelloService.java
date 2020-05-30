@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * Created by lion on 2020/5/30.
  */
-@FeignClient("hello-service")
+@FeignClient(name = "hello-service", fallback = HelloServiceFallback.class)
 public interface HelloService {
 
     @RequestMapping("/hello")
