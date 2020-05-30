@@ -1,5 +1,7 @@
 package com.lion.eurekaserver.web;
 
+import com.lion.eurekaserver.service.HelloService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -16,14 +18,12 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ConsumerController {
 
-    private final Logger logger = Logger.getLogger(getClass());
-
     @Autowired
-    private RestTemplate restTemplate;
+    private HelloService helloService;
 
     @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
     public String helloConsumer() {
-        return restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody();
+        return helloService.helloService();
     }
 
 
