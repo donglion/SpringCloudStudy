@@ -1,0 +1,27 @@
+server:
+  port: 7011
+spring:
+  profiles:
+    active: dev
+  application:
+    name: config-client
+
+---
+
+spring:
+  profiles: dev
+  cloud:
+    config:
+      uri: http://localhost:7001
+      label: master
+      profile: dev
+
+---
+
+spring:
+  profiles: prod
+  cloud:
+    config:
+      uri: http://localhost:7001
+      label: master
+      profile: prod

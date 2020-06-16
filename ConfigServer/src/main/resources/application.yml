@@ -1,5 +1,11 @@
 spring:
   application:
     name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/donglion/SpringCloudStudy
 server:
   port: 7001
